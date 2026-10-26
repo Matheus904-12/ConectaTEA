@@ -300,3 +300,7 @@ Contribuições são bem-vindas! Por favor:
 ---
 
 **Desenvolvido com 💙 para ajudar famílias**
+
+## Segurança e configuração
+
+Não versione arquivos de ambiente de produção nem senhas. Configure `DATABASE_URL`, `JWT_SECRET`, `SESSION_SECRET`, `EMAIL_USER`, `EMAIL_PASS` e demais variáveis diretamente no ambiente de hospedagem. Use um arquivo `.env` local ignorado pelo Git e consulte [`.env.example`](.env.example) para conhecer os nomes das variáveis. Se credenciais anteriores foram publicadas, rotacione-as no provedor: apagar um arquivo não limpa o histórico Git.
