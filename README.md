@@ -83,13 +83,9 @@ O banco SQLite será criado automaticamente em `backend/conectatea.db`
 # Acesse: http://localhost:5500
 ```
 
-### Login Padrão
+### Acesso de demonstração
 
-```
-Email: admin@conectatea.com
-Senha: Admin123!
-Tipo: especialista
-```
+Não mantenha credenciais padrão em documentação pública nem reutilize senhas de demonstração em produção. Para testar localmente, crie uma conta de desenvolvimento ou use o mecanismo de seed do ambiente local; antes de publicar, confirme que nenhuma conta administrativa padrão continua ativa.
 
 ## 📁 Estrutura do Projeto
 
